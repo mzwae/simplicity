@@ -1,4 +1,4 @@
-      <footer>Copyright &copy; MZ <?php date('Y'); ?></footer>
+      <footer>Copyright MZ &copy; <?=date("Y")?></footer>
     </div>
   </body>
 </html>

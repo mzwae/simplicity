@@ -114,6 +114,18 @@ header h1 {
   width: 400px;
 }
 
+header #search {
+  float: right;
+  width: 310px;
+  padding-top: 14px;
+  list-style: none !important;
+}
+
+header h1 span{
+  font-size: 16px;
+  color: #306fa6;
+}
+
 nav.main {
   height: 35px;
   padding-top: 10px;
@@ -153,4 +165,26 @@ nav.main a {
   color: #074b77;
   display: block;
   margin-top: 5px;
+}
+
+.meta{
+  padding: 3px 5px;
+  background: #f4f4f4;
+  width: 95%;
+}
+
+#sidebar {
+  float: right;
+  width: 25%;
+  overflow: auto;
+  background: #f4f4f4;
+  padding-left: 10px 15px;
+}
+
+#sidebar {
+  list-style: none !important;
+}
+
+#sidebar ul {
+  padding-left: 10px;
 }
